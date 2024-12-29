@@ -23,16 +23,25 @@
       </div>
     </nav>
 
-    <section id="accueil" class="hero">
+    <section id="home" class="hero">
       <div class="hero-content">
+        <!-- Ajout du conteneur pour l'image de profil -->
+        <div class="profile-image-container">
+          <div class="profile-image">
+            <img src="assets/images/photo.jpg" alt="Richard AKPAGNI" />
+          </div>
+          <div class="profile-border"></div>
+        </div>
+
         <h1>Richard AKPAGNI</h1>
-        <h2>Ingénieur Réseau & Cloud</h2>
+        <h2>Ingénieur Cloud & IoT</h2>
         <p class="hero-description">
-          Spécialisé en Infrastructure Cloud, Automatisation Réseau et Sécurité
+          Passionné par l'innovation technologique cloud & IOT et spécialisé
+          dans l'intégration des outils DevOps.
         </p>
-        <div class="cta-buttons">
-          <a href="#contact" class="btn primary">Me contacter</a>
-          <a href="#skills" class="btn secondary">Mes compétences</a>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary">Me Contacter</a>
+          <a href="#skills" class="btn secondary">Mon Portfolio</a>
         </div>
       </div>
     </section>
@@ -43,18 +52,82 @@
         <div class="about-text">
           <p>
             Ingénieur Réseau passionné par les nouvelles technologies, combinant
-            expertise technique et vision stratégique. En constante évolution
-            vers les technologies Cloud et l'automatisation réseau.
+            expertise technique. En constante évolution vers les technologies
+            Cloud et l'automatisation réseau avec un amour des outils devops .
           </p>
           <ul class="highlights">
             <li>
               <i class="fas fa-check"></i> AWS Cloud Practitioner Certifié
             </li>
-            <li><i class="fas fa-check"></i> Expert en Infrastructure IT</li>
             <li>
-              <i class="fas fa-check"></i> Spécialiste en Automatisation Réseau
+              <i class="fas fa-check"></i> Maitrise des Infrastructures IT et
+              automatisation réseaux
             </li>
+            <li><i class="fas fa-check"></i> Spécialiste en IOT</li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Expérience Professionnelle</h2>
+      <div class="timeline">
+        <!-- Support Technique AVASO -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Février 2024 - Présent</div>
+            <h3>Support Technique</h3>
+            <h4>AVASO Technology Solutions – Bathurst, NB</h4>
+            <ul class="experience-details">
+              <li>Support technique niveau 1 et 2 aux utilisateurs</li>
+              <li>Diagnostic et résolution des incidents techniques (SCCM)</li>
+              <li>
+                Configuration et déploiement des ordinateurs et périphériques
+              </li>
+              <li>Documentation des procédures de résolution</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Administrateur Réseau WELMAT -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2019 - 2024</div>
+            <h3>Administrateur Réseau</h3>
+            <h4>WELMAT, Abidjan - Côte d'Ivoire</h4>
+            <ul class="experience-details">
+              <li>Déploiement d'applications web sur Azure Cloud et AWS</li>
+              <li>Configuration serveur web Apache et base de données MySQL</li>
+              <li>Administration Windows Server 2019 (AD, GPO, DHCP, DNS)</li>
+              <li>
+                Gestion des services RDS et déploiement Windows 10 avec MDT
+              </li>
+              <li>Configuration load balancer et stockage SMB</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Assistant gérant informatique BDELLIUM-IT -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2018 - 2019</div>
+            <h3>Assistant gérant informatique</h3>
+            <h4>BDELLIUM-IT, Abidjan – Côte d'Ivoire</h4>
+            <ul class="experience-details">
+              <li>Implémentation du gestionnaire de tickets GLPI</li>
+              <li>
+                Administration Office 365 et gestion des comptes utilisateurs
+              </li>
+              <li>Sauvegarde incrémentielle avec Acronis</li>
+              <li>
+                Configuration des périphériques et monitoring des serveurs
+              </li>
+              <li>Assistance des fournisseurs infogérance</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -62,40 +135,102 @@
     <section id="skills" class="skills">
       <h2 class="section-title">Compétences Techniques</h2>
       <div class="skills-grid">
+        <!-- Infrastructure Cloud & Systèmes -->
         <div class="skill-category">
-          <h3><i class="fas fa-cloud"></i> Cloud & Virtualisation</h3>
+          <h3><i class="fas fa-cloud"></i> Infrastructure & Systèmes</h3>
           <ul>
             <li>AWS (EC2, S3, VPC, RDS)</li>
             <li>Azure Fundamentals</li>
             <li>VMware vSphere</li>
-            <li>Infrastructure as Code</li>
+            <li>Windows Server 2019, 10/11</li>
+            <li>Debian/Ubuntu Server</li>
           </ul>
         </div>
+
+        <!-- Réseaux & Sécurité -->
         <div class="skill-category">
-          <h3><i class="fas fa-network-wired"></i> Réseaux</h3>
+          <h3><i class="fas fa-shield-wired"></i> Réseaux & Sécurité</h3>
           <ul>
             <li>TCP/IP, DHCP, DNS, VPN</li>
-            <li>SD-WAN</li>
-            <li>Network Automation</li>
-            <li>Load Balancing</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-shield-alt"></i> Sécurité</h3>
-          <ul>
+            <li>SD-WAN, Load Balancing</li>
             <li>Zero Trust Architecture</li>
             <li>Firewall Management</li>
-            <li>Security Best Practices</li>
             <li>Network Security</li>
+            <li>Network Automation</li>
           </ul>
         </div>
+
+        <!-- Langages de Programmation -->
         <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Automatisation</h3>
+          <h3><i class="fas fa-code"></i> Langages & Frameworks</h3>
           <ul>
-            <li>Python Networking</li>
+            <li>Python & Django</li>
+            <li>C++</li>
+            <li>HTML5, CSS3, JavaScript, JSON</li>
+            <li>PHP</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <!-- Bases de Données -->
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Bases de Données</h3>
+          <ul>
+            <li>MariaDB</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>InfluxDB</li>
+          </ul>
+        </div>
+
+        <!-- Stacks Technologiques -->
+        <div class="skill-category">
+          <h3><i class="fas fa-layer-group"></i> Stacks Technologiques</h3>
+          <ul>
+            <li>LAMP (Linux, Apache, MySQL, PHP)</li>
+            <li>MERN (MongoDB, Express, React, Node.js)</li>
+            <li>IoT Stack (MQTT, Node-RED, InfluxDB, Grafana)</li>
+            <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+            <li>Mean Stack (MongoDB, Express, Angular, Node.js)</li>
+          </ul>
+        </div>
+
+        <!-- DevOps & Containerisation -->
+        <div class="skill-category">
+          <h3><i class="fab fa-docker"></i> DevOps & Containers</h3>
+          <ul>
+            <li>Docker & Docker Compose</li>
+            <li>Kubernetes (Bases)</li>
+            <li>GitHub Actions, GitLab CI</li>
+            <li>Jenkins (Notions)</li>
+            <li>Infrastructure as Code</li>
+            <li>Git Version Control</li>
+          </ul>
+        </div>
+
+        <!-- IoT & Automatisation -->
+        <div class="skill-category">
+          <h3><i class="fas fa-microchip"></i> IoT & Automation</h3>
+          <ul>
+            <li>Arduino & ESP32</li>
+            <li>Raspberry Pi</li>
+            <li>Capteurs & Actuateurs</li>
+            <li>MQTT & CoAP</li>
+            <li>Node-RED</li>
+            <li>Home Assistant</li>
+          </ul>
+        </div>
+
+        <!-- Outils Collaboratifs -->
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Outils & Gestion</h3>
+          <ul>
+            <li>Office 365 Administration</li>
+            <li>SharePoint & Teams</li>
+            <li>GLPI</li>
+            <li>ServiceNow</li>
             <li>Ansible Basics</li>
-            <li>Shell Scripting</li>
-            <li>CI/CD Pipeline</li>
+            <li>PowerShell</li>
           </ul>
         </div>
       </div>
@@ -156,20 +291,31 @@
     </section>
 
     <section id="contact" class="contact">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-content">
-        <div class="contact-info">
-          <p><i class="fas fa-location-dot"></i> Bathurst, NB</p>
-          <p><i class="fas fa-phone"></i> 514-515-7517</p>
-          <div class="social-links">
-            <a href="#" class="social-link" title="LinkedIn"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="#" class="social-link" title="GitHub"
-              ><i class="fab fa-github"></i
-            ></a>
+      <h2 class="section-title">Me Contacter</h2>
+      <div class="contact-container">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required />
           </div>
-        </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
       </div>
     </section>
 
